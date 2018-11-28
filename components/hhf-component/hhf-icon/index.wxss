@@ -1,0 +1,10 @@
+@import 'font/iconfont.wxss';
+.haipi-operation-icon-static{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center
+}
+.haipi-operation-icon-static:before{
+  display: inline;
+}

@@ -1,0 +1,7 @@
+<view
+  class="haipi-operation-iconfont haipi-operation-icon-{{icon}} haipi-operation-icon-static"
+  style="{{ color ? 'color: ' + color + ';' : '' }}{{ size ? 'font-size: ' + size + ';' : '' }}{{ width ? 'width: ' + width + ';' : '' }}"
+  bind:tap="handleTap"
+>
+  <view wx:if="{{ info !== null }}" class="haipi-icon">{{ info }}</view>
+</view>

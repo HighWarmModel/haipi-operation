@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wx8eb535f2c24fa8c6"
+  ]
+}

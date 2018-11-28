@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#0093e9",
+  "navigationBarTitleText": "登录",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-tab": "/components/vant-weapp/tab/index",
+    "van-tabs": "/components/vant-weapp/tabs/index",
+    "van-button": "/components/vant-weapp/button/index",
+    "hhf-icon": "/components/hhf-component/hhf-icon/index"
+  }
+}
