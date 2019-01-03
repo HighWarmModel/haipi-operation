@@ -46,7 +46,7 @@ page{
   width: 280rpx;
 }
 /* .phone-input:focus, */
- .login-active{
+.login-input.login-active{
   box-shadow: 0 0 3px 1px #0093e9;
 }
 .login-code{

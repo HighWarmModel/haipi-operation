@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#0093e9",
+  "navigationBarTitleText": "负责门店",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "operation-list": "/components/haipi-operation-component/operation-list/index",
+    "more-show": "/components/haipi-operation-component/more-show/index"
+  }
+}

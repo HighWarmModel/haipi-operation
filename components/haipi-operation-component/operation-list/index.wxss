@@ -1,0 +1,15 @@
+@import '../common/style.wxss';
+
+.component-main{
+  position: relative;
+  border: 1px solid #0093e9;
+  border-radius: 10rpx;
+  padding: 10rpx 30rpx;
+  margin: 30rpx;
+}
+.state{
+  position: absolute;
+  top: -1px;
+  right: 40rpx;
+  font-size: 0;
+}

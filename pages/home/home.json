@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#0093e9",
+  "navigationBarTitleText": "嗨皮运维",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-tag": "/components/vant-weapp/tag/index"
+  }
+}

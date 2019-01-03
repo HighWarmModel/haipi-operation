@@ -1,0 +1,12 @@
+
+    <view class="flex-row flex-center">
+      <block wx:if="{{types}}">
+        <text class="text-color-555 text-size-30 text-bold block-padding-10-0">{{values}}</text>
+        <view>
+          <van-loading type="spinner" color="#0093e9"></van-loading>
+        </view>
+      </block>
+      <block wx:else>
+        <text class="text-color-555 text-size-30 text-bold block-padding-10-0">{{values}}</text>
+      </block>
+    </view>

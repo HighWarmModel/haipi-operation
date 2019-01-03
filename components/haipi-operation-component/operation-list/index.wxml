@@ -1,0 +1,26 @@
+<block wx:for="{{listData}}" wx:for-index="inx" wx:for-item="itemName" wx:key="inx">
+  <view class="component-main {{ classes }}" style="{{ styles }}">
+    <view class="text-color-333 text-size-32 text-bold block-padding-10-0">中粮大悦城</view>
+    <block wx:if="{{type === 1}}">
+      <view class="text-color-555 text-size-32 flex-row flex-start-center block-padding-10-0">
+        <text>负责人：张先生{{type}}</text>
+        <view>电话：<text catchtap="handleTapCall" data-phone="18888727875">18888727875</text></view>
+      </view>
+      <view class="text-color-555 text-size-32 block-padding-10-0">
+        <text>地址：杭州市西湖区中粮大悦城4F</text>
+      </view>
+    </block>
+    <block wx:elif="{{type === 2}}">
+      <view class="state">
+        <van-tag color="#ff5722" size="large">待响应</van-tag>
+      </view>
+      <view class="text-ellipsis text-color-333 text-size-32 block-padding-10-0">
+        <text>天车故障</text>
+      </view>
+      <view class="flex-row flex-between-center block-padding-10-0">
+        <text class="text-color-555 text-size-26">编号：BX20181212001</text>
+        <text class="text-color-555 text-size-26">保修时间：2018-12-12 10:00</text>
+      </view>
+    </block>
+  </view>
+</block>

@@ -1,0 +1,6 @@
+<view class="main">
+  <scroll-view style="height:100vh" scroll-y lower-threshold="{{lowerThreshold}}" bindscrolltolower="handleScrollLower">
+    <operation-list list-data="{{storeData}}" type="{{1}}"></operation-list>
+    <more-show types="{{types}}" values="{{values}}"></more-show>
+  </scroll-view>
+</view>

@@ -8,15 +8,15 @@
         <view class="password-login">
           <view class="login-phone">
             <view class="login-icon">
-              <hhf-icon icon="weixiugong" color="#666666" width="60rpx" size="40rpx" />
+              <hhf-icon icon="weixiugong" color="{{active === 'phone1' ? '#0093e9' : '#666666'}}" width="60rpx" size="40rpx" />
             </view>
-            <input class="phone-input {{active === 'phone1' ? 'login-active' : ''}}" type="number" bind:focus="handleFocus" placeholder="请输入手机号" bind:blur="handleBlur" data-type="phone1" maxlength="{{11}}"/>
+            <input class="phone-input login-input {{active === 'phone1' ? 'login-active' : ''}}" type="number" bind:focus="handleFocus" placeholder="请输入手机号" bind:blur="handleBlur" data-type="phone1" maxlength="{{11}}"/>
           </view>
           <view class="login-psw">
             <view class="login-icon">
-              <hhf-icon icon="mima" color="#666666" width="60rpx" size="40rpx" />
+              <hhf-icon icon="mima" color="{{active === 'psw' ? '#0093e9' : '#666666'}}" width="60rpx" size="40rpx" />
             </view>
-            <input  class="psw-input {{active === 'psw' ? 'login-active' : ''}}" bind:focus="handleFocus" type="text" password="{{true}}" bind:blur="handleBlur" data-type="psw" placeholder="请输入密码" maxlength="{{18}}"/>
+            <input  class="psw-input login-input {{active === 'psw' ? 'login-active' : ''}}" bind:focus="handleFocus" type="text" password="{{true}}" bind:blur="handleBlur" data-type="psw" placeholder="请输入密码" maxlength="{{18}}"/>
           </view>
         </view>
       </van-tab>
@@ -24,15 +24,15 @@
         <view class="code-login">
           <view class="login-phone">
             <view class="login-icon">
-              <hhf-icon icon="weixiugong" color="#666666" width="60rpx" size="40rpx" />
+              <hhf-icon icon="weixiugong" color="{{active === 'phone2' ? '#0093e9' : '#666666'}}" width="60rpx" size="40rpx" />
             </view>
-            <input class="phone-input {{active === 'phone2' ? 'login-active' : ''}}" type="number" bind:focus="handleFocus" placeholder="请输入手机号" bind:blur="handleBlur" data-type="phone2" maxlength="{{11}}"/>
+            <input class="phone-input login-input {{active === 'phone2' ? 'login-active' : ''}}" type="number" bind:focus="handleFocus" placeholder="请输入手机号" bind:blur="handleBlur" data-type="phone2" maxlength="{{11}}"/>
           </view>
           <view class="login-code">
             <view class="login-icon">
-              <hhf-icon icon="yanzhengma" color="#666666" width="60rpx" size="40rpx" />
+              <hhf-icon icon="yanzhengma" color="{{active === 'code' ? '#0093e9' : '#666666'}}" width="60rpx" size="40rpx" />
             </view>
-            <input  class="code-input {{active === 'code' ? 'login-active' : ''}}" bind:focus="handleFocus" type="text" bind:blur="handleBlur" data-type="code" placeholder="请输入验证码" maxlength="{{18}}"/>
+            <input  class="code-input login-input {{active === 'code' ? 'login-active' : ''}}" bind:focus="handleFocus" type="text" bind:blur="handleBlur" data-type="code" placeholder="请输入验证码" maxlength="{{18}}"/>
             <view class="send-code {{countDown === 60 ? '' : 'send-code-active'}}" bind:tap="handleSend">{{sendContent}}</view>
           </view>
         </view>

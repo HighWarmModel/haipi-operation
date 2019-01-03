@@ -1,5 +1,5 @@
 <view
-  class="haipi-operation-iconfont haipi-operation-icon-{{icon}} haipi-operation-icon-static"
+  class="haipi-operation-iconfont haipi-operation-icon-{{icon}} haipi-operation-icon-static {{hhfClass ? hhfClass : ''}}"
   style="{{ color ? 'color: ' + color + ';' : '' }}{{ size ? 'font-size: ' + size + ';' : '' }}{{ width ? 'width: ' + width + ';' : '' }}"
   bind:tap="handleTap"
 >
